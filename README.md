@@ -1,5 +1,5 @@
-# docker-teamcity
-Teamcity docker image based on alpine liunx and open-jdk-8.  
+# TeamCity docker image.
+Jetbrains TeamCity docker image based on alpine liunx and open-jdk-8.  
 
 ### TeamCity version.
 The version currently used by the image is 10.0.3, this can be changed with the `TEAMCITY_VERSION` environment variable.  
