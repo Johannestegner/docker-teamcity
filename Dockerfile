@@ -1,7 +1,7 @@
 FROM openjdk:8-jdk-alpine
 MAINTAINER Johannes Tegnér <johannes@jitesoft.com>
 
-ENV TEAMCITY_VERSION=10.0.4
+ENV TEAMCITY_VERSION=10.0.5
 ENV TEAMCITY_DATA_PATH /app/data
 
 RUN apk add --update wget && \
