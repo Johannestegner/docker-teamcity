@@ -2,7 +2,7 @@
 Jetbrains TeamCity docker image based on alpine liunx and open-jdk-8.  
 
 ### TeamCity version.
-The version currently used by default in the image is 2017.1.1, this can be changed with the `TEAMCITY_VERSION` environment variable or just set the image tag to the wanted version.  
+The version currently used by default in the image is 2017.1.2, this can be changed with the `TEAMCITY_VERSION` environment variable or just set the image tag to the wanted version.  
 
 ### Build & Run.
 ```
