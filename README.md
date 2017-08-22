@@ -2,10 +2,6 @@
 
 Jetbrains TeamCity docker image based on alpine liunx and open-jdk-8.  
 
-### TeamCity version.
-
-The version currently used by default in the image is 2017.1.2, this can be changed with the `TEAMCITY_VERSION` environment variable or just set the image tag to the wanted version.  
-
 ### Build & Run.
 
 ```
@@ -17,8 +13,8 @@ docker run -p 8111:8111 jitesoft/teamcity
 
 The directory `/app/data/` is the teamcity data dir in the container.  
 I would recommend adding `/app/data/backup` to a shared volume and backup the system regulary.  
-To add new plugins, place them in the `/app/data/plugins` directory and reboot the docker image.  
-Log files are located in `/opt/teamcity/logs`.   
+To add new plugins, place them in the `/app/data/plugins` directory and restart the docker image.  
+Log files are located in `/opt/teamcity/logs`.
 
 ### Port.
 
