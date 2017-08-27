@@ -5,6 +5,7 @@ ENV TEAMCITY_VERSION="2017.1.3" \
     TEAMCITY_DATA_PATH="/app/data"
 
 RUN apk add --no-cache --virtual .trash wget \
+    && apk add --no-cache git \
     && wget https://download.jetbrains.com/teamcity/TeamCity-$TEAMCITY_VERSION.tar.gz -O TeamCity.tar.gz \
     && mkdir /app \
     && tar -xvzf TeamCity.tar.gz -C /app \
