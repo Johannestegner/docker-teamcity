@@ -1,7 +1,7 @@
 FROM openjdk:8-jre-alpine
 LABEL maintainer="Johannes Tegnér <johannes@jitesoft.com>"
 
-ENV TEAMCITY_VERSION="2017.1.5" \
+ENV TEAMCITY_VERSION="2017.2.3" \
     TEAMCITY_DATA_PATH="/app/data"
 
 RUN apk add --no-cache --virtual .trash wget \
